@@ -22,6 +22,7 @@ public class ConsultorioServiceImpl implements ConsultorioService {
 	public List<Consultorio> findAll() throws Exception {
 		return consultorioRepository.findAll();
 	}
+	
 	@Transactional(readOnly = true)
 	@Override
 	public Optional<Consultorio> findById(Integer id) throws Exception {
