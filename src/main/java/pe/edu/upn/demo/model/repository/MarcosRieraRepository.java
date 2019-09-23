@@ -9,4 +9,4 @@ import pe.edu.upn.demo.model.entity.MarcosRiera;
 public interface MarcosRieraRepository extends JpaRepository<MarcosRiera, String> {
 
 }
- 
+  
